@@ -15,6 +15,7 @@
 		DF37FF721D66027700C37836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF37FF701D66027700C37836 /* LaunchScreen.storyboard */; };
 		DF37FF7D1D66027800C37836 /* GemDefineProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF37FF7C1D66027800C37836 /* GemDefineProgressTests.m */; };
 		DF37FF881D66027800C37836 /* GemDefineProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF37FF871D66027800C37836 /* GemDefineProgressUITests.m */; };
+		DF3C189F1D6604AC00F6FDA3 /* GemProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3C189E1D6604AC00F6FDA3 /* GemProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DF37FF831D66027800C37836 /* GemDefineProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemDefineProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF37FF871D66027800C37836 /* GemDefineProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemDefineProgressUITests.m; sourceTree = "<group>"; };
 		DF37FF891D66027800C37836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3C189D1D6604AC00F6FDA3 /* GemProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GemProgressView.h; sourceTree = "<group>"; };
+		DF3C189E1D6604AC00F6FDA3 /* GemProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GemProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DF37FF661D66027700C37836 /* AppDelegate.m */,
 				DF37FF681D66027700C37836 /* ViewController.h */,
 				DF37FF691D66027700C37836 /* ViewController.m */,
+				DF3C189D1D6604AC00F6FDA3 /* GemProgressView.h */,
+				DF3C189E1D6604AC00F6FDA3 /* GemProgressView.m */,
 				DF37FF6B1D66027700C37836 /* Main.storyboard */,
 				DF37FF6E1D66027700C37836 /* Assets.xcassets */,
 				DF37FF701D66027700C37836 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF37FF6A1D66027700C37836 /* ViewController.m in Sources */,
+				DF3C189F1D6604AC00F6FDA3 /* GemProgressView.m in Sources */,
 				DF37FF671D66027700C37836 /* AppDelegate.m in Sources */,
 				DF37FF641D66027700C37836 /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				DF37FF8E1D66027800C37836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF37FF8F1D66027800C37836 /* Build configuration list for PBXNativeTarget "GemDefineProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				DF37FF911D66027800C37836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF37FF921D66027800C37836 /* Build configuration list for PBXNativeTarget "GemDefineProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				DF37FF941D66027800C37836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

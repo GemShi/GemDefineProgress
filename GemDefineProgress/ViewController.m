@@ -7,21 +7,27 @@
 //
 
 #import "ViewController.h"
+#import "GemProgressView.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property(nonatomic,strong)GemProgressView *gpView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.gpView = [[GemProgressView alloc]initWithFrame:CGRectMake(60, 60, 200, 200)];
+    self.gpView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:self.gpView];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)slideChange:(id)sender
+{
+    self.gpView.progress = self.slider.value;
 }
 
 @end
